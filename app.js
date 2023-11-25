@@ -3,6 +3,7 @@ const path = require("path");
 const app = express();
 const indexRouter = require("./routes/indexRoutes")
 const usersRouter = require("./routes/usersRoutes")
+const accountsRouter = require("./routes/accountsRoutes")
 const PORT = 3000;
 
 app.listen(PORT, ()=> console.log(`server running http://localhost:${PORT}`))
@@ -13,3 +14,4 @@ app.set("view engine", "ejs");
 
 app.use("/", indexRouter)
 app.use("/users", usersRouter)
+app.use("/accounts", accountsRouter)
