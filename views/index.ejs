@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica EJS</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header class="header-body">
+        <div class="uma-box">
+            <p>Prácticas</p>
+            <div class="umita-ansawer">
+                <img class="umita" src="/images/uma.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="index-main-body">
+        <div class="pecause">
+            <p>Estás en index</p>
+        </div>
+        <div class="uma-list">
+            <ul>
+                <% for(let i = 0; i < 22; i++) { %>
+                    <% if(i % 2 == 0){ %>
+                    <div class="confesion-par">
+                    <p>Confesión número <%= i %></p>
+                    <li>No me gusta la sandía</li>
+                    </div>
+                    <% } else { %>
+                        <div class="confesion-impar">
+                            <p>Confesión número <%= i %></p>
+                            <li>No me gusta la sandia</li>
+                            </div>
+                        <% } %>    
+                <% } %>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

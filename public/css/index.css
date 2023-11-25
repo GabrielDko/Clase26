@@ -1,0 +1,38 @@
+.pecause {
+    padding: 70px;
+    text-align: center;
+    color: #ff0000;
+    animation: text 550ms infinite;
+    transition: all 550ms;
+}
+@keyframes text {
+    0%{ }
+}
+
+.index-main-body {
+    background-image: url("/images/umita-jpg");
+}
+.uma-list {
+    text-align: center;
+}
+
+.umita-chetemele {
+    width: 10%;
+    height: 100px;
+
+}
+
+.confesion-par {
+    background-color:yellowgreen;
+}
+
+.confesion-impar {
+    background-color:crimson;
+}
+
+.confesion-par, .confesion-impar {
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "nombre": "Gabriel",
+    "apellido": "Robles",
+    "email": "gabriielrobless@gmail.com",
+    "pais": "Argentina"
+},{
+    "id": 2,
+    "nombre": "Rocio",
+    "apellido": "Avalos",
+    "email": "gabriielrobless@gmail.com",
+    "pais": "Argentina"
+},{
+    "id": 3,
+    "nombre": "Uma",
+    "apellido": "Robles Avalos",
+    "email": "empanadadumita@gmail.com",
+    "pais": "Narnia"
+}]
